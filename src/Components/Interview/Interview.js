@@ -61,6 +61,7 @@ function Interview() {
       setInterviewType("")
       setDate()
       setLoading(false);
+      setAllEmails([]);
       if(error.length==0) alert("Email sent successfully")
       else 
       alert("Error while sending one or more email/s");
